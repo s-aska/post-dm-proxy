@@ -1,0 +1,28 @@
+{
+    "name": "Post Direct Message Proxy",
+    "description": "Simple proxy to Direct Message on Twitter",
+    "keywords": [
+        "Twitter",
+        "proxy"
+    ],
+    "website": "https://github.com/s-aska/post-proxy-dm",
+    "repository": "https://github.com/s-aska/post-proxy-dm",
+    "env": {
+        "TWITTER_CONSUMER_KEY": {
+            "description": "twitter consumer key",
+            "required": true
+        },
+        "TWITTER_CONSUMER_SECRET": {
+            "description": "twitter consumer secret",
+            "required": true
+        },
+        "TWITTER_ACCESS_TOKEN": {
+            "description": "twitter access token",
+            "required": true
+        },
+        "TWITTER_ACCESS_TOKEN_SECRET": {
+            "description": "twitter access token secret",
+            "required": true
+        }
+    }
+}
