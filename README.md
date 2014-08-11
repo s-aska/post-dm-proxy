@@ -11,6 +11,16 @@ Simple proxy to Direct Message on Twitter.
 
 ```shell
 curl -d 'status=Your Message' http://localhost:5000/
+
+or
+
+curl -d 'status=Your Message' http://YOUR_SUB_DOMAIN.herokuapp.com/
+```
+
+### for ruby install
+
+```
+rbenv install -v 2.1.2 && curl -d 'status=ruby successfully installed' http://localhost:5000/
 ```
 
 ### for Instant noodle
