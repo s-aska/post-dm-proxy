@@ -17,13 +17,13 @@ or
 curl -d 'status=Your Message' http://YOUR_SUB_DOMAIN.herokuapp.com/
 ```
 
-### for ruby install
+### Ruby install
 
 ```
-rbenv install -v 2.1.2 && curl -d 'status=ruby successfully installed' http://localhost:5000/
+rbenv install -v 2.1.2 && curl -d 'status=ruby installed' http://localhost:5000/
 ```
 
-### for Instant noodle
+### Instant noodle
 
 ```shell
 echo "curl -d 'status=ippei was completed.' http://localhost:5000/" | at "+2 minutes"
